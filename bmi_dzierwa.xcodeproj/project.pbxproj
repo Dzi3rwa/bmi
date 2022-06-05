@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D89E9F627621ED10014927A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89E9F527621ED10014927A /* AppDelegate.swift */; };
+		9D89E9F827621ED10014927A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89E9F727621ED10014927A /* SceneDelegate.swift */; };
+		9D89E9FA27621ED10014927A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89E9F927621ED10014927A /* ViewController.swift */; };
+		9D89E9FD27621ED10014927A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D89E9FB27621ED10014927A /* Main.storyboard */; };
+		9D89E9FF27621ED40014927A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D89E9FE27621ED40014927A /* Assets.xcassets */; };
+		9D89EA0227621ED40014927A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D89EA0027621ED40014927A /* LaunchScreen.storyboard */; };
+		9D89EA0D27621ED40014927A /* bmi_dzierwaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89EA0C27621ED40014927A /* bmi_dzierwaTests.swift */; };
+		9D89EA1827621ED40014927A /* bmi_dzierwaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89EA1727621ED40014927A /* bmi_dzierwaUITests.swift */; };
+		9D89EA292762206C0014927A /* grubas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D89EA252762206C0014927A /* grubas.jpeg */; };
+		9D89EA2A2762206C0014927A /* Super.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D89EA262762206C0014927A /* Super.jpeg */; };
+		9D89EA2B2762206C0014927A /* obrazek.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D89EA272762206C0014927A /* obrazek.jpeg */; };
+		9D89EA2C2762206C0014927A /* chudy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D89EA282762206C0014927A /* chudy.jpeg */; };
+		9D89EA6A276225CF0014927A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89EA69276225CF0014927A /* ViewController2.swift */; };
+		9D89EAAE276238EB0014927A /* ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D89EAAD276238EB0014927A /* ico.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D89EA0927621ED40014927A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D89E9EA27621ED10014927A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D89E9F127621ED10014927A;
+			remoteInfo = bmi_dzierwa;
+		};
+		9D89EA1427621ED40014927A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D89E9EA27621ED10014927A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D89E9F127621ED10014927A;
+			remoteInfo = bmi_dzierwa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D89E9F227621ED10014927A /* bmi_dzierwa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bmi_dzierwa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D89E9F527621ED10014927A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D89E9F727621ED10014927A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D89E9F927621ED10014927A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D89E9FC27621ED10014927A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D89E9FE27621ED40014927A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D89EA0127621ED40014927A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D89EA0327621ED40014927A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D89EA0827621ED40014927A /* bmi_dzierwaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bmi_dzierwaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D89EA0C27621ED40014927A /* bmi_dzierwaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi_dzierwaTests.swift; sourceTree = "<group>"; };
+		9D89EA0E27621ED40014927A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D89EA1327621ED40014927A /* bmi_dzierwaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bmi_dzierwaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D89EA1727621ED40014927A /* bmi_dzierwaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi_dzierwaUITests.swift; sourceTree = "<group>"; };
+		9D89EA1927621ED40014927A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D89EA252762206C0014927A /* grubas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grubas.jpeg; path = ../../grubas.jpeg; sourceTree = "<group>"; };
+		9D89EA262762206C0014927A /* Super.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Super.jpeg; path = ../../Super.jpeg; sourceTree = "<group>"; };
+		9D89EA272762206C0014927A /* obrazek.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = obrazek.jpeg; path = ../../obrazek.jpeg; sourceTree = "<group>"; };
+		9D89EA282762206C0014927A /* chudy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chudy.jpeg; path = ../../chudy.jpeg; sourceTree = "<group>"; };
+		9D89EA69276225CF0014927A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		9D89EAAD276238EB0014927A /* ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico.png; path = "../../../../../Volumes/MACIEK USB/ico.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D89E9EF27621ED10014927A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D89EA0527621ED40014927A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D89EA1027621ED40014927A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D89E9E927621ED10014927A = {
+			isa = PBXGroup;
+			children = (
+				9D89E9F427621ED10014927A /* bmi_dzierwa */,
+				9D89EA0B27621ED40014927A /* bmi_dzierwaTests */,
+				9D89EA1627621ED40014927A /* bmi_dzierwaUITests */,
+				9D89E9F327621ED10014927A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D89E9F327621ED10014927A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D89E9F227621ED10014927A /* bmi_dzierwa.app */,
+				9D89EA0827621ED40014927A /* bmi_dzierwaTests.xctest */,
+				9D89EA1327621ED40014927A /* bmi_dzierwaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D89E9F427621ED10014927A /* bmi_dzierwa */ = {
+			isa = PBXGroup;
+			children = (
+				9D89E9F527621ED10014927A /* AppDelegate.swift */,
+				9D89E9F727621ED10014927A /* SceneDelegate.swift */,
+				9D89E9F927621ED10014927A /* ViewController.swift */,
+				9D89EA282762206C0014927A /* chudy.jpeg */,
+				9D89EA272762206C0014927A /* obrazek.jpeg */,
+				9D89EAAD276238EB0014927A /* ico.png */,
+				9D89EA252762206C0014927A /* grubas.jpeg */,
+				9D89E9FB27621ED10014927A /* Main.storyboard */,
+				9D89EA262762206C0014927A /* Super.jpeg */,
+				9D89E9FE27621ED40014927A /* Assets.xcassets */,
+				9D89EA0027621ED40014927A /* LaunchScreen.storyboard */,
+				9D89EA0327621ED40014927A /* Info.plist */,
+				9D89EA69276225CF0014927A /* ViewController2.swift */,
+			);
+			path = bmi_dzierwa;
+			sourceTree = "<group>";
+		};
+		9D89EA0B27621ED40014927A /* bmi_dzierwaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D89EA0C27621ED40014927A /* bmi_dzierwaTests.swift */,
+				9D89EA0E27621ED40014927A /* Info.plist */,
+			);
+			path = bmi_dzierwaTests;
+			sourceTree = "<group>";
+		};
+		9D89EA1627621ED40014927A /* bmi_dzierwaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D89EA1727621ED40014927A /* bmi_dzierwaUITests.swift */,
+				9D89EA1927621ED40014927A /* Info.plist */,
+			);
+			path = bmi_dzierwaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D89E9F127621ED10014927A /* bmi_dzierwa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D89EA1C27621ED40014927A /* Build configuration list for PBXNativeTarget "bmi_dzierwa" */;
+			buildPhases = (
+				9D89E9EE27621ED10014927A /* Sources */,
+				9D89E9EF27621ED10014927A /* Frameworks */,
+				9D89E9F027621ED10014927A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bmi_dzierwa;
+			productName = bmi_dzierwa;
+			productReference = 9D89E9F227621ED10014927A /* bmi_dzierwa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D89EA0727621ED40014927A /* bmi_dzierwaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D89EA1F27621ED40014927A /* Build configuration list for PBXNativeTarget "bmi_dzierwaTests" */;
+			buildPhases = (
+				9D89EA0427621ED40014927A /* Sources */,
+				9D89EA0527621ED40014927A /* Frameworks */,
+				9D89EA0627621ED40014927A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D89EA0A27621ED40014927A /* PBXTargetDependency */,
+			);
+			name = bmi_dzierwaTests;
+			productName = bmi_dzierwaTests;
+			productReference = 9D89EA0827621ED40014927A /* bmi_dzierwaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D89EA1227621ED40014927A /* bmi_dzierwaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D89EA2227621ED40014927A /* Build configuration list for PBXNativeTarget "bmi_dzierwaUITests" */;
+			buildPhases = (
+				9D89EA0F27621ED40014927A /* Sources */,
+				9D89EA1027621ED40014927A /* Frameworks */,
+				9D89EA1127621ED40014927A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D89EA1527621ED40014927A /* PBXTargetDependency */,
+			);
+			name = bmi_dzierwaUITests;
+			productName = bmi_dzierwaUITests;
+			productReference = 9D89EA1327621ED40014927A /* bmi_dzierwaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D89E9EA27621ED10014927A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9D89E9F127621ED10014927A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9D89EA0727621ED40014927A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9D89E9F127621ED10014927A;
+					};
+					9D89EA1227621ED40014927A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9D89E9F127621ED10014927A;
+					};
+				};
+			};
+			buildConfigurationList = 9D89E9ED27621ED10014927A /* Build configuration list for PBXProject "bmi_dzierwa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D89E9E927621ED10014927A;
+			productRefGroup = 9D89E9F327621ED10014927A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D89E9F127621ED10014927A /* bmi_dzierwa */,
+				9D89EA0727621ED40014927A /* bmi_dzierwaTests */,
+				9D89EA1227621ED40014927A /* bmi_dzierwaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D89E9F027621ED10014927A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D89EA2B2762206C0014927A /* obrazek.jpeg in Resources */,
+				9D89EA2A2762206C0014927A /* Super.jpeg in Resources */,
+				9D89EA0227621ED40014927A /* LaunchScreen.storyboard in Resources */,
+				9D89E9FF27621ED40014927A /* Assets.xcassets in Resources */,
+				9D89EA2C2762206C0014927A /* chudy.jpeg in Resources */,
+				9D89EAAE276238EB0014927A /* ico.png in Resources */,
+				9D89E9FD27621ED10014927A /* Main.storyboard in Resources */,
+				9D89EA292762206C0014927A /* grubas.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D89EA0627621ED40014927A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D89EA1127621ED40014927A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D89E9EE27621ED10014927A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D89E9FA27621ED10014927A /* ViewController.swift in Sources */,
+				9D89EA6A276225CF0014927A /* ViewController2.swift in Sources */,
+				9D89E9F627621ED10014927A /* AppDelegate.swift in Sources */,
+				9D89E9F827621ED10014927A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D89EA0427621ED40014927A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D89EA0D27621ED40014927A /* bmi_dzierwaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D89EA0F27621ED40014927A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D89EA1827621ED40014927A /* bmi_dzierwaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D89EA0A27621ED40014927A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D89E9F127621ED10014927A /* bmi_dzierwa */;
+			targetProxy = 9D89EA0927621ED40014927A /* PBXContainerItemProxy */;
+		};
+		9D89EA1527621ED40014927A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D89E9F127621ED10014927A /* bmi_dzierwa */;
+			targetProxy = 9D89EA1427621ED40014927A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D89E9FB27621ED10014927A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D89E9FC27621ED10014927A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D89EA0027621ED40014927A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D89EA0127621ED40014927A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D89EA1A27621ED40014927A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D89EA1B27621ED40014927A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D89EA1D27621ED40014927A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S53CHF96G;
+				INFOPLIST_FILE = bmi_dzierwa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tyty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D89EA1E27621ED40014927A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S53CHF96G;
+				INFOPLIST_FILE = bmi_dzierwa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tyty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D89EA2027621ED40014927A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S53CHF96G;
+				INFOPLIST_FILE = bmi_dzierwaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "breb.bmi-dzierwaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bmi_dzierwa.app/bmi_dzierwa";
+			};
+			name = Debug;
+		};
+		9D89EA2127621ED40014927A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S53CHF96G;
+				INFOPLIST_FILE = bmi_dzierwaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "breb.bmi-dzierwaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bmi_dzierwa.app/bmi_dzierwa";
+			};
+			name = Release;
+		};
+		9D89EA2327621ED40014927A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S53CHF96G;
+				INFOPLIST_FILE = bmi_dzierwaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "breb.bmi-dzierwaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bmi_dzierwa;
+			};
+			name = Debug;
+		};
+		9D89EA2427621ED40014927A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S53CHF96G;
+				INFOPLIST_FILE = bmi_dzierwaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "breb.bmi-dzierwaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bmi_dzierwa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D89E9ED27621ED10014927A /* Build configuration list for PBXProject "bmi_dzierwa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D89EA1A27621ED40014927A /* Debug */,
+				9D89EA1B27621ED40014927A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D89EA1C27621ED40014927A /* Build configuration list for PBXNativeTarget "bmi_dzierwa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D89EA1D27621ED40014927A /* Debug */,
+				9D89EA1E27621ED40014927A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D89EA1F27621ED40014927A /* Build configuration list for PBXNativeTarget "bmi_dzierwaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D89EA2027621ED40014927A /* Debug */,
+				9D89EA2127621ED40014927A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D89EA2227621ED40014927A /* Build configuration list for PBXNativeTarget "bmi_dzierwaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D89EA2327621ED40014927A /* Debug */,
+				9D89EA2427621ED40014927A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D89E9EA27621ED10014927A /* Project object */;
+}
